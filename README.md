@@ -1,6 +1,6 @@
 # Accessible TeX to SVG Converter
 
-A TypeScript tool that converts TeX mathematical equations to accessible SVG with speech descriptions using MathJax and Speech Rule Engine.
+A TypeScript tool that converts TeX mathematical equations to accessible SVG with speech descriptions using MathJax and Speech Rule Engine. For exploration purposes only.
 
 ## Features
 
@@ -13,17 +13,10 @@ A TypeScript tool that converts TeX mathematical equations to accessible SVG wit
 ## Installation
 
 ```bash
-git clone [repository-url]
+git clone https://github.com/peteqian/mathjax-sre
 cd mathjax-poc
 npm install
 ```
-
-## Dependencies
-
-- mathjax-full
-- speech-rule-engine
-- jsdom
-- typescript
 
 ## Usage
 
@@ -75,18 +68,6 @@ npm run build -- --watch
 # Run tests
 npm test
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
-
-## License
-
-MIT
 
 ## Credits
 
