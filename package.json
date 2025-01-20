@@ -1,0 +1,20 @@
+{
+  "name": "mathjax-sre",
+  "version": "1.0.0",
+  "description": "Simple TeX to SVG converter with accessibility",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "mathjax-full": "^3.2.2",
+    "speech-rule-engine": "^4.0.7"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
