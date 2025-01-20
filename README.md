@@ -14,7 +14,7 @@ A TypeScript tool that converts TeX mathematical equations to accessible SVG wit
 
 ```bash
 git clone https://github.com/peteqian/mathjax-sre
-cd mathjax-poc
+cd mathjax-sre
 npm install
 ```
 
